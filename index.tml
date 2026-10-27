@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kursum - Hesap ve Veri Silme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #222;
+        }
+        h1 {
+            color: #c53030;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2b6cb0;
+            margin-top: 24px;
+        }
+        ol, ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .contact {
+            background-color: #f7fafc;
+            border-left: 4px solid #3182ce;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 25px;
+        }
+        .warning {
+            background-color: #fff5f5;
+            border-left: 4px solid #e53e3e;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            font-size: 0.95em;
+        }
+        a {
+            color: #3182ce;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Kursum - Hesap ve Veri Silme</h1>
+    
+    <p>
+        Google Play Store ve Apple App Store veri güvenliği politikaları uyarınca, 
+        <strong>Kursum Mobil</strong> uygulamasındaki hesabınızı ve ilişkili kişisel verilerinizi dilediğiniz zaman silebilirsiniz.
+    </p>
+
+    <h2>1. Uygulama İçinden Hesabınızı Silme (Anında)</h2>
+    <p>Hesabınızı ve verilerinizi uygulama içerisinden anında silmek için aşağıdaki adımları izleyin:</p>
+    <ol>
+        <li><strong>Kursum Mobil</strong> uygulamasını açın ve oturum açın.</li>
+        <li>Alt menüdeki <strong>Profil</strong> sekmesine gidin.</li>
+        <li>Sayfanın en altındaki kırmızı renkli <strong>"Hesabımı Sil"</strong> butonuna dokunun.</li>
+        <li>Açılan onay penceresinde işlemi onaylayın.</li>
+        <li>Hesabınız ve oturumunuz sistemden derhal silinecektir.</li>
+    </ol>
+
+    <h2>2. E-Posta ile Silme Talebinde Bulunma</h2>
+    <p>Uygulamaya erişiminiz yoksa veya hesabınızı web üzerinden sildirmek istiyorsanız:</p>
+    <ul>
+        <li>Kayıtlı e-posta adresinizden <a href="mailto:support@masavtech.com?subject=Kursum%20Hesap%20Silme%20Talebi">support@masavtech.com</a> adresine e-posta gönderin.</li>
+        <li>E-postanın konusuna <strong>"Kursum Hesap Silme Talebi"</strong> yazın ve sisteme kayıtlı telefon numaranızı ekleyin.</li>
+        <li>Kimlik doğrulamasının ardından hesabınız ve verileriniz en geç <strong>7 iş günü</strong> içerisinde tamamen silinir.</li>
+    </ul>
+
+    <h2>Silinen Veriler Nelerdir?</h2>
+    <ul>
+        <li>Ad, soyad, telefon numarası ve e-posta bilgileriniz.</li>
+        <li>Şifre hash'leri ve oturum kimlikleriniz.</li>
+        <li>Cihaz bildirim belirteçleriniz (FCM token).</li>
+    </ul>
+
+    <div class="warning">
+        <strong>Önemli Bilgilendirme:</strong> İlgili kurs/kurumun yasal mevzuat ve muhasebe yükümlülükleri (mali fatura/makbuz geçmişi ve resmi yoklama arşivleri) gereğince saklanması yasal olarak zorunlu olan kurumsal kayıtlar, yasal saklama süresi boyunca saklanabilir.
+    </div>
+
+    <div class="contact">
+        <strong>İletişim ve Destek:</strong><br>
+        Her türlü soru ve talebiniz için: <a href="mailto:support@masavtech.com">support@masavtech.com</a>
+    </div>
+</body>
+</html>
